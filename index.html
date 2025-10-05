@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spotify Clone</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="utility.css    ">
+</head>
+<body>
+<nav class="navbar">
+    <div class="logo">
+      <img src="images/logo.png" alt="Spotify Logo" class="logo-img"><span>Spotify</span>
+      <h1 id="h1">Music world</h1>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#search">Search</a></li>
+      <li><a href="#library">Your Library</a></li>
+    </ul>
+    <div class="user-options">
+      <a href="#playlist">Create Playlist</a>
+      <a href="#logout">Log Out</a>
+      <img src="images/logo.png" alt="User Avatar" class="user-avatar">
+    </div>
+  </nav>
+  <div class="app">
+    <!-- <header>
+      <h1>Spotify Clone</h1>
+    </header> -->
+
+    <div class="player-container">
+      <img src="https://i.gifer.com/CH7i.gif" alt=" " class="album-art">
+      <h2 id="song-title">Song Title</h2>
+
+      <audio id="audio-player" src="music/song1.mp3"></audio>
+      <audio id="audio-player" src="music/song2.mp3"></audio>
+      <audio id="audio-player" src="music/song3.mp3"></audio>
+      <audio id="audio-player" src="music/song4.mp3"></audio>
+      <audio id="audio-player" src="music/song5.mp3"></audio>
+      <audio id="audio-player" src="music/song6.mp3"></audio>
+      <audio id="audio-player" src="music/song7.mp3"></audio>
+      <audio id="audio-player" src="music/song8.mp3"></audio>
+      <audio id="audio-player" src="music/song9.mp3"></audio>
+      <audio id="audio-player" src="music/song10.mp3"></audio>
+      <audio id="audio-player" src="music/song11.mp3"></audio>
+      <audio id="audio-player" src="music/song12.mp3"></audio>
+      <audio id="audio-player" src="music/song13.mp3"></audio>
+      <audio id="audio-player" src="music/song14.mp3"></audio>
+      <audio id="audio-player" src="music/song15.mp3"></audio>
+      <audio id="audio-player" src="music/song16.mp3"></audio>
+       
+
+     
+    </div>
+  </div>
+ <div class="controls">
+        <button onclick="prev()" id="prev">⏮</button>
+        <button onclick="play()" id="play">▶</button>
+        <button id="pause">⏸</button>
+        <button onclick="next()" id="next">⏭</button>
+          <div class="progress-container">
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+  </div>
+  <div class="wave"></div>
+  <div class="songlist" > 
+    <img src="" id="songsList" alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
