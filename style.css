@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Reset some default styles */
 * {
   margin: 0;
@@ -210,3 +211,45 @@ header h1 {
       background-image: url('images/song1.jpg');
       background-size: cover;
     }
+=======
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+}
+
+ul li {
+    height: 50px;
+    width: 140px;
+    background-color: black;
+    float: left;
+    text-align: center;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: #222020;
+}
+
+ul li a:hover {
+    background-color: gray;
+    display: block;
+    border-radius: 8px;
+    color: white;
+}
+>>>>>>> 09c3c55182e93c5a6d37fe390c5b056ff2260e75
